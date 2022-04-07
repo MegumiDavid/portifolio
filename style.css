@@ -27,7 +27,7 @@ body{
     font-family: 'Mulish', sans-serif;
     font-size: 1.8rem;
 
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .h1{
@@ -261,6 +261,7 @@ color: #000000;
 .nav > #nav-check {
 display: none;
 }
+
   
   @media (max-width:650px) {
     .nav > .nav-btn {
@@ -348,8 +349,8 @@ display: none;
 }
 
 .project-box:hover{
-    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
-    transition: all .5s;
+    box-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.2);
+    transition: all .1s;
 }
 
 .project-img{
@@ -358,9 +359,9 @@ display: none;
 }
 
 .project-img:hover{
-    transform: scale(1.03);
-    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
-    transition: all 1s;
+    transform: scale(1.01);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    transition: all .5s;
 }
 
 /* Btn Component */
