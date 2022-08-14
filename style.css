@@ -45,7 +45,7 @@ body{
 
 .h2{
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 3.6rem;
     margin-bottom: 2rem;
 }
 
@@ -140,7 +140,7 @@ a{
 /* Header Section */
 .header-section{
     background-color: var(--primary-color);
-    min-height: 45vh;
+    min-height: 60vh;
     overflow: hidden;
 }
 
@@ -372,6 +372,14 @@ display: none;
     transition: all .5s;
 }
 
+.go-to-link {
+    text-decoration: none;
+    color: #000;
+    transition: all 200ms;
+}
+.go-to-link:hover {
+    text-decoration: underline;
+}
 /* Btn Component */
 
 .btn{
